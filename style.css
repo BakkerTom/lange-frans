@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frans{
+  position: relative;
+  cursor: pointer;
+}
+
+.frans-mond{
+  position: absolute;
+  left: 122px;
+  bottom: 5px;
+
+  transition: all 0.1s ease-in-out;
+}
+
+.open{
+  transform: translateY(30px);
+}
