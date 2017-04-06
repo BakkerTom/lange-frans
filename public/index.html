@@ -22,6 +22,11 @@
     <audio data-key="4" src="sounds/MP3/oh-oh.mp3"></audio>
     <audio data-key="5" src="sounds/MP3/hallo.mp3"></audio>
     <audio data-key="6" src="sounds/MP3/topper.mp3"></audio>
+    <audio data-key="7" src="sounds/MP3/caliente.mp3"></audio>
+    <audio data-key="8" src="sounds/MP3/een-vraag.mp3"></audio>
+    <audio data-key="9" src="sounds/MP3/klinkt-gezellig.mp3"></audio>
+    <audio data-key="10" src="sounds/MP3/niet-waar.mp3"></audio>
+    <audio data-key="11" src="sounds/MP3/proost.mp3"></audio>
 
     <script>
       const frans = document.querySelector('.frans');
@@ -29,7 +34,7 @@
 
 
       frans.addEventListener('click', e => {
-        const rnd = Math.floor(Math.random() * 6) + 1;
+        const rnd = Math.floor(Math.random() * 11) + 1;
         const audio = document.querySelector(`[data-key='${rnd}']`);
 
         fransMond.classList.add('open');
